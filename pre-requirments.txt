@@ -1,0 +1,10 @@
+ipykernel
+pandas
+python-dotenv
+langchain-openai
+langgraph
+langgraph-cli[inmem]
+grandalf
+langchain
+langchain-tavily
+tools
