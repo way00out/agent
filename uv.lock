@@ -21,6 +21,7 @@ dependencies = [
     { name = "langchain", extra = ["mcp"] },
     { name = "langchain-openai" },
     { name = "langchain-tavily" },
+    { name = "langgraph" },
     { name = "markitdown", extra = ["all"] },
 ]
 
@@ -32,6 +33,7 @@ requires-dist = [
     { name = "langchain", extras = ["mcp"], specifier = ">=1.4.3" },
     { name = "langchain-openai", specifier = ">=1.6.7" },
     { name = "langchain-tavily", specifier = ">=0.2.18" },
+    { name = "langgraph", specifier = ">=1.2.14" },
     { name = "markitdown", extras = ["all"], specifier = ">=0.1.8" },
 ]
 
