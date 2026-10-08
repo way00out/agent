@@ -8,7 +8,13 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "deepagents>=0.7.23",
     "dotenv>=0.9.9",
+    "fastmcp>=4.0.11",
+    "langchain[mcp]>=1.4.3",
+    "langchain-openai>=1.6.7",
+    "markitdown[all]>=0.1.8",
+    "langchain-tavily>=0.2.18",
 ]
 
 [project.scripts]
